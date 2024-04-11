@@ -1,0 +1,66 @@
+{
+  "Type": "Bag",
+  "Items": [
+    {
+      "Type": "Bag",
+      "Items": [
+        {
+          "Type": "Weapon",
+          "Damage": 10,
+          "Range": 6,
+          "Upgraders":[
+            {
+              "Type": "DamageUpgrader",
+              "Damage": 3
+            },
+            {
+              "Type": "RangeUpgrader",
+              "Range": 20
+            }
+          ]
+        },
+        {
+          "Type": "Weapon",
+          "Damage": 10,
+          "Range": 6
+        },
+        {
+          "Type": "Bag",
+          "Items": [
+            {
+              "Type": "Weapon",
+              "Damage": 10,
+              "Range": 6,
+              "Upgraders":[
+                {
+                  "Type": "RangeUpgrader",
+                  "Range": 20
+                }
+              ]
+            },
+            {
+              "Type": "Weapon",
+              "Damage": 10,
+              "Range": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Weapon",
+      "Damage": 3,
+      "Range": 2,
+      "Upgraders":[
+        {
+          "Type": "DamageUpgrader",
+          "Damage": 10
+        },
+        {
+            "Type": "RangeUpgrader",
+          "Range": 2
+        }
+      ] 
+    }
+  ]
+}
